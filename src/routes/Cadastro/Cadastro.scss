@@ -1,0 +1,71 @@
+.form-cad {
+    $width: 400px;
+    $margin: 50px auto;
+    $padding: 20px;
+    $border: 1px solid #ccc;
+    $border-radius: 10px;
+
+    width: $width;
+    margin: $margin;
+    padding: $padding;
+    border: $border;
+    border-radius: $border-radius;
+  
+    fieldset {
+      padding: 10px;
+    }
+  
+    legend {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+  
+    label {
+      font-size: 1rem;
+      margin-bottom: 5px;
+      display: block;
+    }
+  
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: $border-radius;
+      box-sizing: border-box;
+    }
+  
+    button {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      background-color: #6aa9e9;
+      color: #fff;
+      border: none;
+      border-radius: $border-radius;
+      cursor: pointer;
+      transition: ease-out 300ms;
+  
+      &:hover {
+        background-color: #318CE7;
+      }
+    }
+  
+    p {
+      font-size: 0.9rem;
+      margin-top: 10px;
+      text-align: center;
+    }
+  
+    a {
+      text-decoration: none;
+      color: #6aa9e9;
+      transition: ease-out 300ms;
+      font-weight: bold;
+  
+      &:hover {
+        color: #318CE7;
+      }
+    }
+  }
+  
