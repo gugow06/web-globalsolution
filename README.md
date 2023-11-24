@@ -1,10 +1,10 @@
-#Projeto QuickCare
+# Projeto QuickCare
 
 #Repositório referente a Global Solution do 2º Semestre de 2023 - Desafio HapVida.
 
 ---
 
-#Pré-requisitos
+# Pré-requisitos
 
 Abrir um terminal e digitar o comando "npm install".
 Em seguida, digitar "npm run db".
@@ -14,7 +14,7 @@ Assim, terá o site estará rodando localmente.
 
 ---
 
-#Acesso
+# Acesso
 
 Os professores podem se cadastrar usando seu próprio usuário e senha, ou usando o usuário e senha criado para testes:
 
@@ -23,7 +23,7 @@ Senha: GS@23
 
 ---
 
-#QuickCare
+# QuickCare
 
 O QuickCare é um aplicativo móvel que tem como objetivo facilitar o acesso a assistência médica, reduzindo o tempo de espera para consultas médicas e emergências. O aplicativo conta com as seguintes funcionalidades:
 
@@ -34,7 +34,7 @@ O QuickCare é um aplicativo móvel que tem como objetivo facilitar o acesso a a
 
 ---
 
-#Objetivos do QuickCare
+# Objetivos do QuickCare
 
 O QuickCare tem os seguintes objetivos:
 
@@ -44,7 +44,7 @@ O QuickCare tem os seguintes objetivos:
 
 ---
 
-#Desenvolvedor:
+# Desenvolvedor:
 
 |       Aluno       |     Rm     |   Turma   |
 | ----------------- | ---------- | --------- |
