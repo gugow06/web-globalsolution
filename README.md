@@ -1,6 +1,6 @@
-# Projeto QuickCare
+# QuickCare
 
-# Repositório referente a Global Solution do 2º Semestre de 2023 - Desafio HapVida.
+![bannerQuick](https://imgur.com/8VgDRpX.png)
 
 ---
 
