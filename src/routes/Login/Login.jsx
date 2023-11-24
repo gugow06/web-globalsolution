@@ -3,6 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import "./Login.scss"
 
 export default function Login() {
+    document.title = "QuickCare";
 
     //Criando o Redirecionador!
     const navigate = useNavigate();

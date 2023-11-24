@@ -1,13 +1,17 @@
 import "./Home.scss"
 
 export default function Home() {
-  document.title = "HOME";
+  document.title = "QuickCare";
   
   if(sessionStorage.getItem("token-user")){
   return (
-
     <div className="conteudo-principal">
-      <div className="texto1">
+      <div className="quickbanner">
+      <figure>
+        <img src="./public/QuickCare_banner.png"/>
+      </figure> 
+      </div>
+      <div className="texto">
       <h1>O que é o Quick care?</h1>
       <p>O QuickCare é um aplicativo móvel que tem como objetivo facilitar o acesso a assistência médica, reduzindo o tempo de espera para consultas médicas e emergências. O aplicativo conta com as seguintes funcionalidades:</p>
       <br/>
@@ -26,15 +30,20 @@ export default function Home() {
           <li><p>Reduzir o tempo de espera para consultas: O QuickCare fornece informações sobre tempos de espera estimados, para que as pessoas possam planejar suas consultas com antecedência.</p></li>
           <li><p>Melhorar a qualidade do atendimento: O QuickCare fornece informações sobre disponibilidade e especialidades de médicos, para que as pessoas possam encontrar o médico certo para suas necessidades.</p></li>
         </ul>
+      </div>
 
-        <div className="texto3">
+      <div className="texto">
           <h1>Gadget fornecido para idosos</h1>
           <p>Além do aplicativo, o QuickCare também oferece um gadget de queda para idosos clientes da HapVida. O gadget é um dispositivo que, ao detectar uma queda, emite um sinal sonoro para alertar outras pessoas sobre o acidente.</p>
           <p>O gadget de queda é uma ferramenta importante para a segurança de idosos, pois pode ajudar a evitar que eles fiquem sozinhos em caso de acidente.</p>
-        </div>
-        
       </div>
-
+      <figure className="prototipo">
+        <img src="./public/Prototipo_Idosos.png"/>  
+      <figcaption>
+          Este é o protótipo do Gadget.
+        </figcaption>
+      </figure>
+        
     </div>
   )}else{
     window.location = "/login";
