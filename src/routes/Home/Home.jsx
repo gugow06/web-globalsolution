@@ -12,8 +12,8 @@ export default function Home() {
       </figure> 
       </div>
       <div className="texto">
-      <h1>O que é o Quick care?</h1>
-      <p>O QuickCare é um aplicativo móvel que tem como objetivo facilitar o acesso a assistência médica, reduzindo o tempo de espera para consultas médicas e emergências. O aplicativo conta com as seguintes funcionalidades:</p>
+      <h1>O que é o QuickCare?</h1>
+      <p>O QuickCare é um aplicativo móvel em DESENVOLVIMENTO que tem como objetivo facilitar o acesso a assistência médica, reduzindo o tempo de espera para consultas médicas e emergências. O aplicativo contará com as seguintes funcionalidades:</p>
       <br/>
       <ul>
         <li><p>Localização em Tempo Real: Permite que usuários compartilhem sua localização por satélite para encontrar médicos próximos.</p></li>
@@ -21,6 +21,8 @@ export default function Home() {
         <li><p>Integração com HapVida: Vincula-se aos hospitais HapVida para fornecer informações sobre disponibilidade e especialidades.</p></li>
         <li><p>Chamada de Ambulância: Oferece opção de solicitar uma ambulância em situações emergenciais.</p></li>
       </ul>
+      <br/>
+      <p>O QuickCare, um aplicativo móvel desenvolvido em Flutter, está em fase final de desenvolvimento e deve ser lançado em breve. É uma solução inovadora que tem o potencial de revolucionar a maneira como as pessoas acessam a assistência médica. O aplicativo é fácil de usar e oferece uma gama de recursos que podem ajudar as pessoas a permanecerem saudáveis e seguras. Estamos ansiosos para lançar o QuickCare e ajudar as pessoas a ter uma melhor experiência com os cuidados da saúde.</p>
       </div>
 
       <div className="texto">
