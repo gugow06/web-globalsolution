@@ -44,7 +44,7 @@ O QuickCare tem os seguintes objetivos:
 
 ---
 
-# Desenvolvedor:
+# Desenvolvedor
 
 |       Aluno       |     Rm     |   Turma   |
 | ----------------- | ---------- | --------- |
